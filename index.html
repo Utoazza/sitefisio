@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiane Bohm dos Santos | Fisioterapeuta Forense</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="logo_fisioterapia.png" alt="Logo Fisioterapeuta Forense">
+    </div>
+    <h1>Cristiane Bohm dos Santos</h1>
+    <p>Fisioterapeuta Forense | Perita Judicial</p>
+    <nav id="menu">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      &#9776; <!-- Ícone do menu hamburguer -->
+    </div>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre</h2>
+    <div class="sobre-container">
+      <img src="sua_foto.jpg" alt="Foto Cristiane Bohm" class="foto">
+      <div class="descricao">
+        <p>Fisioterapeuta graduada há 19 anos, Especialista em Ortopedia e Traumatologia, Fisioterapeuta Forense, Capacitada em Ergonomia, inscrita no CREFITO-5ª região sob o número 83.169/F.</p>
+      </div>
+    </div>
+    
+    <!-- Imagem do documento -->
+    <div class="documento">
+      <h3>Carteira de Membro da Associação Brasileira de Fisioterapia Forense</h3>
+      <img src="image.png" alt="Carteira de Membro" class="documento-img">
+    </div>
+  </section>
+
+  <!-- Seção Serviços -->
+  <section id="servicos" class="servicos">
+    <h2>Serviços</h2>
+    <p class="intro-text">
+      Como <strong>Fisioterapeuta Forense</strong> e <strong>Perita Judicial</strong>, 
+      ofereço uma ampla gama de serviços especializados que visam otimizar a gestão do tempo dos advogados 
+      e contribuir para a obtenção de <strong>resultados superiores</strong> em processos relacionados a 
+      <strong>incapacidades físicas</strong>. Também atendo pessoas que enfrentam dificuldades em processos judiciais, 
+      especialmente aqueles que não têm êxito em suas ações.
+    </p>
+    <h3>Minhas áreas de atuação incluem:</h3>
+    <div class="servicos-lista">
+      <div class="servico-item">
+        <img src="icone-pericia.png" alt="Ícone Perícia Judicial">
+        <h4>Perícia Judicial em Casos Trabalhistas</h4>
+        <p>Avaliação de condições físicas de trabalhadores e laudos especializados em ações trabalhistas relacionadas a incapacidades físicas e ergonomia.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-detran.png" alt="Ícone Isenção DETRAN">
+        <h4>Ações Relacionadas a Isenções de Veículos perante o DETRAN</h4>
+        <p>Consultoria e laudos para ações sobre isenção de impostos na compra de veículos para pessoas com deficiência, com foco em garantir o direito de isenção previsto pela lei.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-seguradora.png" alt="Ícone Seguradora">
+        <h4>Disputas com Seguradoras</h4>
+        <p>Avaliação técnica de casos envolvendo aposentadoria por previdência privada, com pareceres técnicos para garantir os direitos do segurado em disputas com seguradoras.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-inss.png" alt="Ícone Aposentadoria INSS">
+        <h4>Consultorias Ad Hoc para Aposentadorias do INSS</h4>
+        <p>Consultoria especializada sobre diversas formas de aposentadoria, como por tempo de contribuição, invalidez, e aposentadoria especial, para garantir que os clientes obtenham o benefício adequado.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-acidente.png" alt="Ícone Acidentes Vias Públicas">
+        <h4>Ações Relacionadas a Incapacidades Causadas por Acidentes em Vias Públicas</h4>
+        <p>Laudos especializados para ações judiciais envolvendo acidentes de trânsito, com avaliação e análise das condições de incapacidade física resultante de acidentes.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-dpvat.png" alt="Ícone Seguro DPVAT">
+        <h4>Ações Relacionadas ao Seguro DPVAT</h4>
+        <p>Consultoria para ações envolvendo o seguro DPVAT, com foco em garantir a justa compensação por incapacidades decorrentes de acidentes de trânsito.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-erro-medico.png" alt="Ícone Erro Médico">
+        <h4>Ações por Incapacidades Decorrentes de Erro Médico ou Conduta Fisioterapêutica</h4>
+        <p>Laudos técnicos e pareceres sobre a responsabilização por erros médicos ou falhas em tratamentos fisioterapêuticos que resultaram em danos permanentes ou temporários ao paciente.</p>
+      </div>
+
+      <!-- Novos serviços adicionados -->
+      <div class="servico-item">
+        <img src="icone-assessor-reclamante.png" alt="Ícone Assessor Técnico Parte Reclamante">
+        <h4>Assessor Técnico da Parte Reclamante em Demandas Trabalhistas</h4>
+        <p>Atuação como assessor técnico na preparação de laudos e pareceres para a parte reclamante em ações trabalhistas, garantindo uma abordagem técnica eficaz.</p>
+      </div>
+
+      <div class="servico-item">
+        <img src="icone-assessor-reclamada.png" alt="Ícone Assessor Técnico Parte Reclamada">
+        <h4>Assessor Técnico da Parte Reclamada em Demandas Trabalhistas</h4>
+        <p>Atuação como assessor técnico para a parte reclamada, oferecendo pareceres e avaliações técnicas para respaldar sua defesa em processos trabalhistas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form id="contactForm">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <input type="tel" id="whatsapp" placeholder="Seu número de WhatsApp (com DDD)" required>
+      <textarea id="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="social-media">
+      <a href="https://www.instagram.com/crisfisioforense" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/crisfisioforense" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/crisfisioforense" target="_blank">LinkedIn</a>
+      <a href="https://crisfisioforense.com.br/" target="_blank">Website</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Cristiane Bohm dos Santos - Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    // Função para rolagem suave para as seções
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Função para abrir e fechar o menu hamburguer
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+
+    // Envio de formulário para WhatsApp
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Captura os dados do formulário
+      var nome = document.getElementById('nome').value;
+      var email = document.getElementById('email').value;
+      var whatsapp = document.getElementById('whatsapp').value;
+      var mensagem = document.getElementById('mensagem').value;
+
+      // Monta a mensagem para enviar no WhatsApp
+      var mensagemWhatsApp = `Olá, meu nome é ${nome}, meu e-mail é ${email}, meu número de WhatsApp é ${whatsapp} e minha mensagem é: ${mensagem}`;
+
+      // Codifica a mensagem para URL
+      var mensagemEncoded = encodeURIComponent(mensagemWhatsApp);
+
+      // Número de telefone para enviar no WhatsApp
+      var numeroWhatsApp = "5554999188692"; // Seu número de WhatsApp
+
+      // Redireciona para o WhatsApp com a mensagem
+      window.location.href = `https://wa.me/${numeroWhatsApp}?text=${mensagemEncoded}`;
+    });
+  </script>
+
+</body>
+</html>

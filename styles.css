@@ -1,0 +1,215 @@
+/* Resetando margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #57229c;
+  color: #fff;
+  padding: 1.5rem 0; /* Reduzindo a altura do cabeçalho */
+  text-align: center;
+  position: relative;
+}
+
+header .logo img {
+  max-width: 200px; /* Ajustando o tamanho do logo */
+}
+
+header h1 {
+  font-size: 2.2rem; /* Diminuindo o tamanho do título */
+  margin-top: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem; /* Ajustando o tamanho da descrição */
+  margin-bottom: 0.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f767c4;
+  font-weight: bold;
+  font-size: 1rem; /* Ajustando o tamanho da fonte do menu */
+}
+
+/* Menu Hamburguer */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  header nav ul li {
+    margin-bottom: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header nav.active ul {
+    display: flex;
+  }
+}
+
+/* Seção Sobre */
+.sobre {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sobre .foto {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.sobre .descricao p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Estilo para a seção de documento */
+.documento {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.documento-img {
+  max-width: 80%; /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Seção Serviços */
+.servicos {
+  background-color: #8e5deb;
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.servicos .intro-text {
+  font-size: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.servicos h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.servicos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.servico-item {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.servico-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.servico-item h4 {
+  font-size: 1.5rem;
+  color: #57229c;
+  margin-bottom: 0.75rem;
+}
+
+.servico-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Seção Contato */
+.contato {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contato form input,
+.contato form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contato button {
+  background-color: #6522e8;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contato .social-media a {
+  text-decoration: none;
+  color: #57229c;
+  margin: 0.5rem;
+}
+
+/* Rodapé */
+footer {
+  background-color: #716868;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
