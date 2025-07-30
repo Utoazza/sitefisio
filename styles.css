@@ -1215,21 +1215,3 @@ footer {
     color: black !important;
   }
 }
-
-/* ✅ Correção Problema 2: Caixas de formulário com texto invisível */
-input,
-textarea,
-select {
-  color: #1f2937 !important;  /* cinza escuro */
-  background-color: rgba(255, 255, 255, 0.98);
-  caret-color: #1f2937;
-}
-
-/* ✅ Correção Problema 3: Rodapé com letras sumidas */
-footer,
-footer p,
-footer a,
-.footer,
-.footer * {
-  color: #ec4899 !important; /* rosa visível */
-}
