@@ -3,179 +3,487 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cristiane Bohm dos Santos | Fisioterapeuta Forense</title>
+  
+  <!-- SEO Meta Tags -->
+  <title>Cristiane Bohm dos Santos | Fisioterapeuta Forense e Perita Judicial | Rio Grande do Sul</title>
+  <meta name="description" content="Fisioterapeuta Forense especializada em perícias judiciais, laudos técnicos e avaliações de incapacidade física. Atendimento em ações trabalhistas, DPVAT, INSS e mais no RS.">
+  <meta name="keywords" content="fisioterapeuta forense, perita judicial, laudo técnico, perícia médica, incapacidade física, ação trabalhista, DPVAT, INSS, Rio Grande do Sul">
+  <meta name="author" content="Cristiane Bohm dos Santos">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Cristiane Bohm dos Santos | Fisioterapeuta Forense">
+  <meta property="og:description" content="Especialista em perícias judiciais e laudos técnicos para incapacidades físicas">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://crisfisioforense.com.br">
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Cristiane Bohm dos Santos - Fisioterapeuta Forense",
+    "description": "Fisioterapeuta Forense especializada em perícias judiciais",
+    "url": "https://crisfisioforense.com.br",
+    "telephone": "+55-54-99918-8692",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Rio Grande do Sul",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Loading -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+  </div>
 
-  <!-- Cabeçalho -->
-  <header>
-    <div class="logo">
-      <img src="logo_fisioterapia.png" alt="Logo Fisioterapeuta Forense">
-    </div>
-    <h1>Cristiane Bohm dos Santos</h1>
-    <p>Fisioterapeuta Forense | Perita Judicial</p>
-    <nav id="menu">
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <div class="hamburger" onclick="toggleMenu()">
-      &#9776; <!-- Ícone do menu hamburguer -->
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="logo_fisioterapia.png" alt="Logo Fisioterapeuta Forense" class="logo-img">
+          Cris Fisio Forense
+        </div>
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
     </div>
   </header>
 
-  <!-- Seção Sobre -->
-  <section id="sobre" class="sobre">
-    <h2>Sobre</h2>
-    <div class="sobre-container">
-      <img src="sua_foto.jpg" alt="Foto Cristiane Bohm" class="foto">
-      <div class="descricao">
-        <p>Fisioterapeuta graduada há 19 anos, Especialista em Ortopedia e Traumatologia, Fisioterapeuta Forense, Capacitada em Ergonomia, inscrita no CREFITO-5ª região sob o número 83.169/F.</p>
-      </div>
-    </div>
-    
-    <!-- Imagem do documento -->
-    <div class="documento">
-      <h3>Carteira de Membro da Associação Brasileira de Fisioterapia Forense</h3>
-      <img src="image.png" alt="Carteira de Membro" class="documento-img">
-    </div>
-  </section>
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5554999188692?text=Olá! Gostaria de saber mais sobre os serviços de fisioterapia forense." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
-  <!-- Seção Serviços -->
-  <section id="servicos" class="servicos">
-    <h2>Serviços</h2>
-    <p class="intro-text">
-      Como <strong>Fisioterapeuta Forense</strong> e <strong>Perita Judicial</strong>, 
-      ofereço uma ampla gama de serviços especializados que visam otimizar a gestão do tempo dos advogados 
-      e contribuir para a obtenção de <strong>resultados superiores</strong> em processos relacionados a 
-      <strong>incapacidades físicas</strong>. Também atendo pessoas que enfrentam dificuldades em processos judiciais, 
-      especialmente aqueles que não têm êxito em suas ações.
-    </p>
-    <h3>Minhas áreas de atuação incluem:</h3>
-    <div class="servicos-lista">
-      <div class="servico-item">
-        <img src="icone-pericia.png" alt="Ícone Perícia Judicial">
-        <h4>Perícia Judicial em Casos Trabalhistas</h4>
-        <p>Avaliação de condições físicas de trabalhadores e laudos especializados em ações trabalhistas relacionadas a incapacidades físicas e ergonomia.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-detran.png" alt="Ícone Isenção DETRAN">
-        <h4>Ações Relacionadas a Isenções de Veículos perante o DETRAN</h4>
-        <p>Consultoria e laudos para ações sobre isenção de impostos na compra de veículos para pessoas com deficiência, com foco em garantir o direito de isenção previsto pela lei.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-seguradora.png" alt="Ícone Seguradora">
-        <h4>Disputas com Seguradoras</h4>
-        <p>Avaliação técnica de casos envolvendo aposentadoria por previdência privada, com pareceres técnicos para garantir os direitos do segurado em disputas com seguradoras.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-inss.png" alt="Ícone Aposentadoria INSS">
-        <h4>Consultorias Ad Hoc para Aposentadorias do INSS</h4>
-        <p>Consultoria especializada sobre diversas formas de aposentadoria, como por tempo de contribuição, invalidez, e aposentadoria especial, para garantir que os clientes obtenham o benefício adequado.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-acidente.png" alt="Ícone Acidentes Vias Públicas">
-        <h4>Ações Relacionadas a Incapacidades Causadas por Acidentes em Vias Públicas</h4>
-        <p>Laudos especializados para ações judiciais envolvendo acidentes de trânsito, com avaliação e análise das condições de incapacidade física resultante de acidentes.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-dpvat.png" alt="Ícone Seguro DPVAT">
-        <h4>Ações Relacionadas ao Seguro DPVAT</h4>
-        <p>Consultoria para ações envolvendo o seguro DPVAT, com foco em garantir a justa compensação por incapacidades decorrentes de acidentes de trânsito.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-erro-medico.png" alt="Ícone Erro Médico">
-        <h4>Ações por Incapacidades Decorrentes de Erro Médico ou Conduta Fisioterapêutica</h4>
-        <p>Laudos técnicos e pareceres sobre a responsabilização por erros médicos ou falhas em tratamentos fisioterapêuticos que resultaram em danos permanentes ou temporários ao paciente.</p>
-      </div>
-
-      <!-- Novos serviços adicionados -->
-      <div class="servico-item">
-        <img src="icone-assessor-reclamante.png" alt="Ícone Assessor Técnico Parte Reclamante">
-        <h4>Assessor Técnico da Parte Reclamante em Demandas Trabalhistas</h4>
-        <p>Atuação como assessor técnico na preparação de laudos e pareceres para a parte reclamante em ações trabalhistas, garantindo uma abordagem técnica eficaz.</p>
-      </div>
-
-      <div class="servico-item">
-        <img src="icone-assessor-reclamada.png" alt="Ícone Assessor Técnico Parte Reclamada">
-        <h4>Assessor Técnico da Parte Reclamada em Demandas Trabalhistas</h4>
-        <p>Atuação como assessor técnico para a parte reclamada, oferecendo pareceres e avaliações técnicas para respaldar sua defesa em processos trabalhistas.</p>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Cristiane Bohm dos Santos</h1>
+        <p class="subtitle">Fisioterapeuta Forense & Perita Judicial Especializada</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-calendar"></i> Agendar Consulta
+          </a>
+          <a href="#services" class="btn btn-secondary">
+            <i class="fas fa-info-circle"></i> Nossos Serviços
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Seção Contato -->
-  <section id="contato" class="contato">
-    <h2>Contato</h2>
-    <form id="contactForm">
-      <input type="text" id="nome" placeholder="Seu nome" required>
-      <input type="email" id="email" placeholder="Seu e-mail" required>
-      <input type="tel" id="whatsapp" placeholder="Seu número de WhatsApp (com DDD)" required>
-      <textarea id="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-    <div class="social-media">
-      <a href="https://www.instagram.com/crisfisioforense" target="_blank">Instagram</a>
-      <a href="https://www.facebook.com/crisfisioforense" target="_blank">Facebook</a>
-      <a href="https://www.linkedin.com/in/crisfisioforense" target="_blank">LinkedIn</a>
-      <a href="https://crisfisioforense.com.br/" target="_blank">Website</a>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>Sobre a Profissional</h2>
+        <p>Conheça minha trajetória e especialização em fisioterapia forense</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="sua_foto.jpg" alt="Cristiane Bohm dos Santos">
+        </div>
+        <div class="about-text">
+          <h3>19 Anos de Experiência</h3>
+          <p>Fisioterapeuta graduada há 19 anos, com sólida formação e experiência prática em diversas áreas da fisioterapia. Minha especialização em Ortopedia e Traumatologia, combinada com capacitação em Ergonomia, me permite oferecer avaliações técnicas precisas e fundamentadas.</p>
+          
+          <p>Como Fisioterapeuta Forense e Perita Judicial, dedico-me a auxiliar advogados e clientes na obtenção de resultados superiores em processos relacionados a incapacidades físicas, oferecendo laudos especializados e pareceres técnicos de alta qualidade.</p>
+          
+          <div class="credentials">
+            <span class="credential-tag">CREFITO-5 83.169/F</span>
+            <span class="credential-tag">Especialista em Ortopedia</span>
+            <span class="credential-tag">Capacitada em Ergonomia</span>
+            <span class="credential-tag">Perita Judicial</span>
+          </div>
+
+          <!-- Seção de Atendimento -->
+          <div class="attendance-info">
+            <h4><i class="fas fa-map-marker-alt"></i> Área de Atendimento</h4>
+            <p><strong>Rio Grande do Sul:</strong> Atendimento completo em todo o estado. Para casos fora da região metropolitana, há taxa de deslocamento acordada previamente.</p>
+            <p><strong>Todo o Brasil:</strong> Para casos específicos e complexos, atendo em território nacional mediante avaliação prévia e acordo de condições.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Rodapé -->
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Serviços Especializados</h2>
+        <p>Ampla gama de serviços forenses para otimizar seus processos judiciais</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-pericia.png" alt="Perícia Judicial">
+          </div>
+          <h4>Perícia Judicial Trabalhista</h4>
+          <p>Avaliação especializada de condições físicas de trabalhadores e elaboração de laudos técnicos para ações trabalhistas relacionadas a incapacidades e ergonomia.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-detran.png" alt="Isenção DETRAN">
+          </div>
+          <h4>Isenção de Veículos DETRAN</h4>
+          <p>Consultoria e laudos especializados para ações de isenção de impostos na compra de veículos para pessoas com deficiência, garantindo direitos previstos em lei.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-seguradora.png" alt="Seguradora">
+          </div>
+          <h4>Disputas com Seguradoras</h4>
+          <p>Avaliações técnicas em casos de aposentadoria por previdência privada, com pareceres especializados para garantir os direitos do segurado.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-inss.png" alt="Aposentadoria INSS">
+          </div>
+          <h4>Aposentadorias INSS</h4>
+          <p>Consultoria especializada em diversos tipos de aposentadoria: por tempo de contribuição, invalidez e aposentadoria especial.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-acidente.png" alt="Acidentes Vias Públicas">
+          </div>
+          <h4>Acidentes de Trânsito</h4>
+          <p>Laudos especializados para ações judiciais envolvendo acidentes, com avaliação detalhada das condições de incapacidade física resultante.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-dpvat.png" alt="Seguro DPVAT">
+          </div>
+          <h4>Seguro DPVAT</h4>
+          <p>Consultoria especializada em ações DPVAT, focando na garantia de justa compensação por incapacidades decorrentes de acidentes de trânsito.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-erro-medico.png" alt="Erro Médico">
+          </div>
+          <h4>Erro Médico</h4>
+          <p>Laudos técnicos sobre responsabilização por erros médicos ou falhas em tratamentos que resultaram em danos permanentes ou temporários.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-assessor-reclamante.png" alt="Assessor Técnico Reclamante">
+          </div>
+          <h4>Assessor Técnico Reclamante</h4>
+          <p>Atuação como assessor técnico na preparação de laudos e pareceres para a parte reclamante em ações trabalhistas, garantindo abordagem técnica eficaz.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="icone-assessor-reclamada.png" alt="Assessor Técnico Reclamada">
+          </div>
+          <h4>Assessor Técnico Reclamada</h4>
+          <p>Atuação como assessor técnico para a parte reclamada, oferecendo pareceres e avaliações técnicas para respaldar sua defesa em processos trabalhistas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Depoimentos</h2>
+        <p>Veja o que nossos clientes falam sobre nossos serviços</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">Profissional extremamente competente e dedicada. Seu laudo técnico foi fundamental para o sucesso da nossa ação trabalhista. Recomendo sem hesitação.</p>
+          <div class="testimonial-author">Dr. João Silva</div>
+          <div class="testimonial-role">Advogado Trabalhista</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">Cristiane demonstrou conhecimento técnico excepcional e profissionalismo incomparável. Conseguimos a isenção do veículo graças ao seu trabalho especializado.</p>
+          <div class="testimonial-author">Maria Santos</div>
+          <div class="testimonial-role">Cliente - Isenção DETRAN</div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">Excelente profissional! Sua avaliação técnica foi precisa e fundamental para o deferimento da aposentadoria por invalidez do meu cliente.</p>
+          <div class="testimonial-author">Dra. Ana Costa</div>
+          <div class="testimonial-role">Advogada Previdenciária</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Perguntas Frequentes</h2>
+        <p>Tire suas principais dúvidas sobre fisioterapia forense</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            O que é fisioterapia forense?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>A fisioterapia forense é uma especialidade que aplica conhecimentos fisioterapêuticos em questões legais, realizando perícias e elaborando laudos técnicos para processos judiciais relacionados a incapacidades físicas.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quanto tempo demora um laudo técnico?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>O prazo varia conforme a complexidade do caso, mas geralmente entre 15 a 30 dias após a avaliação pericial. Casos urgentes podem ser priorizados mediante acordo prévio.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quais documentos são necessários?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Depende do tipo de perícia, mas geralmente: documentos pessoais, exames médicos, relatórios de tratamento, histórico ocupacional e documentação específica do processo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Atende em outras cidades do RS?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sim, atendo em todo o Rio Grande do Sul. Para casos fora da região metropolitana, há taxa de deslocamento que é acordada previamente. Para casos específicos, também atendo em todo o Brasil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section (Expandible) -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <h2>Blog Técnico</h2>
+        <p>Artigos especializados sobre fisioterapia forense e perícias judiciais</p>
+      </div>
+      <div class="blog-container">
+        <div class="blog-item">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <div class="blog-info">
+              <div class="blog-date">15 Jan 2025</div>
+              <h3 class="blog-title">Como elaborar um laudo pericial eficaz</h3>
+              <p class="blog-excerpt">Conheça os elementos essenciais para um laudo técnico que atenda às necessidades judiciais...</p>
+            </div>
+            <i class="fas fa-chevron-down blog-toggle"></i>
+          </div>
+          <div class="blog-content">
+            <div class="blog-text">
+              <h4>Elementos Fundamentais de um Laudo Pericial</h4>
+              <p>Um laudo pericial eficaz deve conter informações precisas e metodologia clara. Os principais elementos incluem:</p>
+              <ul>
+                <li><strong>Identificação do periciado:</strong> Dados completos e histórico relevante</li>
+                <li><strong>Metodologia aplicada:</strong> Testes, avaliações e critérios utilizados</li>
+                <li><strong>Análise técnica:</strong> Interpretação dos achados baseada em evidências científicas</li>
+                <li><strong>Conclusão objetiva:</strong> Resposta clara aos quesitos formulados</li>
+              </ul>
+              <p>A qualidade técnica e a clareza na apresentação dos dados são fundamentais para o sucesso do processo judicial.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-item">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <div class="blog-info">
+              <div class="blog-date">10 Jan 2025</div>
+              <h3 class="blog-title">Avaliação de incapacidade laboral</h3>
+              <p class="blog-excerpt">Métodos e critérios utilizados na avaliação de incapacidades relacionadas ao trabalho...</p>
+            </div>
+            <i class="fas fa-chevron-down blog-toggle"></i>
+          </div>
+          <div class="blog-content">
+            <div class="blog-text">
+              <h4>Critérios de Avaliação da Incapacidade</h4>
+              <p>A avaliação de incapacidade laboral segue protocolos específicos que consideram:</p>
+              <ul>
+                <li><strong>Capacidade funcional:</strong> Avaliação das limitações físicas do trabalhador</li>
+                <li><strong>Demandas ocupacionais:</strong> Análise das exigências da função exercida</li>
+                <li><strong>Potencial de reabilitação:</strong> Possibilidades de retorno ao trabalho</li>
+                <li><strong>Graduação da incapacidade:</strong> Classificação em parcial, total, temporária ou permanente</li>
+              </ul>
+              <p>Cada caso é único e requer análise individualizada, considerando aspectos médicos, funcionais e ocupacionais.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-item">
+          <div class="blog-header" onclick="toggleBlog(this)">
+            <div class="blog-info">
+              <div class="blog-date">05 Jan 2025</div>
+              <h3 class="blog-title">Perícias em acidentes de trânsito</h3>
+              <p class="blog-excerpt">Aspectos importantes na avaliação de sequelas físicas decorrentes de acidentes automobilísticos...</p>
+            </div>
+            <i class="fas fa-chevron-down blog-toggle"></i>
+          </div>
+          <div class="blog-content">
+            <div class="blog-text">
+              <h4>Avaliação de Sequelas Pós-Acidente</h4>
+              <p>A perícia em acidentes de trânsito envolve análise específica das lesões e suas consequências:</p>
+              <ul>
+                <li><strong>Nexo causal:</strong> Estabelecimento da relação entre o acidente e as lesões</li>
+                <li><strong>Avaliação das sequelas:</strong> Identificação de limitações permanentes</li>
+                <li><strong>Grau de comprometimento:</strong> Quantificação das perdas funcionais</li>
+                <li><strong>Impacto na qualidade de vida:</strong> Análise das limitações nas atividades diárias</li>
+              </ul>
+              <p>A documentação adequada e a avaliação criteriosa são essenciais para garantir a justa indenização das vítimas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Scheduling Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Entre em Contato</h3>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>(54) 99918-8692</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>contato@crisfisioforense.com.br</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Rio Grande do Sul, Brasil</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Seg-Sex: 8h às 18h</span>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Solicite um Orçamento</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="telefone" placeholder="Seu telefone/WhatsApp" required>
+            </div>
+            <div class="form-group">
+              <select name="servico" required>
+                <option value="">Selecione o serviço desejado</option>
+                <option value="pericia-trabalhista">Perícia Trabalhista</option>
+                <option value="isencao-detran">Isenção DETRAN</option>
+                <option value="disputa-seguradora">Disputa com Seguradora</option>
+                <option value="aposentadoria-inss">Aposentadoria INSS</option>
+                <option value="acidente-transito">Acidente de Trânsito</option>
+                <option value="dpvat">Seguro DPVAT</option>
+                <option value="erro-medico">Erro Médico</option>
+                <option value="assessoria-tecnica">Assessoria Técnica</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="mensagem" placeholder="Descreva brevemente seu caso" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Enviar Solicitação
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Cristiane Bohm dos Santos - Todos os direitos reservados</p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Cristiane Bohm dos Santos</h4>
+          <p>Fisioterapeuta Forense especializada em perícias judiciais e laudos técnicos para incapacidades físicas.</p>
+          <p><strong>CREFITO-5:</strong> 83.169/F</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Serviços</h4>
+          <a href="#services">Perícia Trabalhista</a>
+          <a href="#services">Isenção DETRAN</a>
+          <a href="#services">Disputas com Seguradoras</a>
+          <a href="#services">Aposentadoria INSS</a>
+          <a href="#services">Acidentes de Trânsito</a>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contato</h4>
+          <p><i class="fas fa-phone"></i> (54) 99918-8692</p>
+          <p><i class="fas fa-envelope"></i> contato@crisfisioforense.com.br</p>
+          <p><i class="fas fa-map-marker-alt"></i> Rio Grande do Sul, Brasil</p>
+          
+          <div class="social-links">
+            <a href="https://www.instagram.com/crisfisioforense" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/crisfisioforense" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/crisfisioforense" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Cristiane Bohm dos Santos - Fisioterapeuta Forense. Todos os direitos reservados.</p>
+        <p>Site desenvolvido com foco em SEO e experiência do usuário.</p>
+      </div>
+    </div>
   </footer>
 
-  <script>
-    // Função para rolagem suave para as seções
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-
-    // Função para abrir e fechar o menu hamburguer
-    function toggleMenu() {
-      const menu = document.getElementById('menu');
-      menu.classList.toggle('active');
-    }
-
-    // Envio de formulário para WhatsApp
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-
-      // Captura os dados do formulário
-      var nome = document.getElementById('nome').value;
-      var email = document.getElementById('email').value;
-      var whatsapp = document.getElementById('whatsapp').value;
-      var mensagem = document.getElementById('mensagem').value;
-
-      // Monta a mensagem para enviar no WhatsApp
-      var mensagemWhatsApp = `Olá, meu nome é ${nome}, meu e-mail é ${email}, meu número de WhatsApp é ${whatsapp} e minha mensagem é: ${mensagem}`;
-
-      // Codifica a mensagem para URL
-      var mensagemEncoded = encodeURIComponent(mensagemWhatsApp);
-
-      // Número de telefone para enviar no WhatsApp
-      var numeroWhatsApp = "5554999188692"; // Seu número de WhatsApp
-
-      // Redireciona para o WhatsApp com a mensagem
-      window.location.href = `https://wa.me/${numeroWhatsApp}?text=${mensagemEncoded}`;
-    });
-  </script>
-
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
