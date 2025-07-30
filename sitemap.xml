@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Página Principal -->
+  <url>
+    <loc>https://crisfisioforense.com.br/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Seção Sobre -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#about</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Seção Serviços -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Perícia Judicial Trabalhista -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Isenção DETRAN -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Disputas com Seguradoras -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Aposentadorias INSS -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Acidentes de Trânsito -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Seguro DPVAT -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Erro Médico -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Assessor Técnico -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#services</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Seção Depoimentos -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#testimonials</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Seção FAQ -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#faq</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Seção Blog -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#blog</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Seção Contato -->
+  <url>
+    <loc>https://crisfisioforense.com.br/#contact</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas específicas por palavra-chave -->
+  
+  <!-- Fisioterapeuta Forense RS -->
+  <url>
+    <loc>https://crisfisioforense.com.br/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Perita Judicial RS -->
+  <url>
+    <loc>https://crisfisioforense.com.br/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Laudo Técnico Fisioterapia -->
+  <url>
+    <loc>https://crisfisioforense.com.br/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- WhatsApp -->
+  <url>
+    <loc>https://wa.me/5554999188692</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

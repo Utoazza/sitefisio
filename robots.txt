@@ -1,0 +1,109 @@
+# robots.txt para crisfisioforense.com.br
+# Fisioterapeuta Forense - Cristiane Bohm dos Santos
+
+# Permitir todos os bots de busca principais
+User-agent: *
+Allow: /
+
+# Permitir especificamente o Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Permitir Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Permitir Yahoo
+User-agent: Slurp
+Allow: /
+
+# Permitir DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Permitir Yandex
+User-agent: YandexBot
+Allow: /
+
+# Bloquear bots maliciosos conhecidos
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Bloquear scrapers de email
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: WebBandit
+Disallow: /
+
+# Bloquear arquivos e pastas que não devem ser indexados
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /backup/
+
+# Bloquear arquivos específicos
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.tmp$
+Disallow: /*~$
+
+# Permitir arquivos importantes
+Allow: /styles.css
+Allow: /script.js
+Allow: /manifest.json
+Allow: /sitemap.xml
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.ico$
+
+# Localização do Sitemap
+Sitemap: https://crisfisioforense.com.br/sitemap.xml
+
+# Informações adicionais
+# Site: Fisioterapeuta Forense - Cristiane Bohm dos Santos
+# Especialidade: Perícias Judiciais e Laudos Técnicos
+# Região: Rio Grande do Sul, Brasil
+# Contato: (54) 99918-8692
+# Email: contato@crisfisioforense.com.br
+
+# Crawl-delay global (em segundos)
+# Ajuda a evitar sobrecarga no servidor
+Crawl-delay: 1
+
+# Request-rate (solicitações por segundo)
+# Formato: Request-rate: [número]/[período em segundos]
+Request-rate: 1/2
+
+# Visit-time (horário de visita permitido)
+# Formato: Visit-time: [hora início]-[hora fim]
+Visit-time: 0900-1800
+
+# Host principal (evita conteúdo duplicado)
+Host: https://crisfisioforense.com.br
