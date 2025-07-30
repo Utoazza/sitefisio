@@ -799,6 +799,7 @@ section {
   
   /* FORÇA CORES PARA MOBILE */
   -webkit-text-fill-color: var(--text) !important;
+  appearance: none !important;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
 }
