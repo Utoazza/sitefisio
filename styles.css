@@ -903,7 +903,7 @@ section {
 ======================================== */
 
 footer {
-  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); /* FUNDO CINZA CLARO */
+  background: linear-gradient(135deg, #f1f5f9 0%, #a06aed 0%); /* FUNDO CINZA CLARO */
   color: var(--text); /* TEXTO ESCURO */
   padding: 3rem 0 1.5rem;
   position: relative;
@@ -936,7 +936,7 @@ footer::before {
 
 .footer-section p,
 .footer-section a {
-  color: var(--text-light); /* CINZA ESCURO */
+  color:#6d37c9; /* ROXO CLARO */ 
   text-decoration: none;
   margin-bottom: 0.6rem;
   display: block;
