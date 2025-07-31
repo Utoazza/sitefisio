@@ -759,7 +759,7 @@ section {
   margin-bottom: 1.8rem;
   font-size: 1.4rem;
   font-weight: 600;
-  color: var(--text); /* TEXTO ESCURO NO TÍTULO */
+  color: #1f2937(--text); /* TEXTO ESCURO NO TÍTULO */
 }
 
 .form-group {
