@@ -155,7 +155,6 @@ img {
 
 .logo img {
   height: 60px;
-  /* Ajuste conforme necessário */
   width: auto;
 }
 
@@ -220,6 +219,7 @@ img {
   font-weight: 300;
   margin-bottom: 1rem;
   opacity: 0.9;
+  color: var(--white); /* CORREÇÃO APLICADA AQUI: Forçando a cor branca */
 }
 
 .hero-description {
@@ -626,7 +626,6 @@ img {
 /* Testimonials Section */
 .depoimentos {
   background-color: #f4effc;
-  /* Light purple background */
 }
 
 .testimonials-grid {
@@ -645,7 +644,6 @@ img {
 
 .stars {
   color: #FFD700;
-  /* Gold */
   margin-bottom: 1rem;
 }
 
