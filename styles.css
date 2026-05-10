@@ -219,6 +219,8 @@ img {
 
 /* Hero Section */
 .hero {
+  /* Fundo roxo em degradê restaurado */
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: var(--white);
   padding: 100px 0;
   text-align: center;
