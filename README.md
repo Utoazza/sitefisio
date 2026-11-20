@@ -1,40 +1,44 @@
-# 💜 Site Oficial - Dra. Cristiane Bohm dos Santos
+# Dra. Cristiane Bohm dos Santos — Fisioterapeuta Forense
 
-> **Fisioterapia Forense, Perícia Judicial e Consultoria PCD**
-> 
-> 🌍 Acesse o site ao vivo: [crisfisioforense.com.br](https://crisfisioforense.com.br)
+Site institucional e landing page de conversão da **Dra. Cristiane Bohm dos Santos**, Fisioterapeuta Forense e Perita Judicial (`CREFITO-5 83.169/F` | **Membro Titular ABRAPEFI**), com mais de 20 anos de experiência clínica e pericial.
 
-![Status do Projeto](https://img.shields.io/badge/Status-Ativo-success?style=for-the-badge)
-![Hospedagem](https://img.shields.io/badge/Hospedagem-GitHub_Pages-181717?style=for-the-badge&logo=github)
-
-Este repositório contém o código-fonte do site oficial da Dra. Cristiane Bohm dos Santos. O foco do projeto é atuar como uma verdadeira máquina de conversão e autoridade, apresentando os serviços de Consultoria Pericial Documental, Assistência Técnica B2B para advogados e Isenções PCD para clientes em todo o Brasil.
+🌐 **Site no ar:** [crisfisioforense.com.br](https://crisfisioforense.com.br)
 
 ---
 
-## 🚀 Recursos Principais e Estratégia
+## Sobre o Projeto
 
-- **SEO Avançado:** Estrutura semântica otimizada com tags Open Graph, Schema.org (JSON-LD) e meta-descrições persuasivas para indexação no Google e Bing.
-- **Gatilhos de Conversão:** Botões flutuantes e links estratégicos com mensagens pré-programadas para o WhatsApp, reduzindo o atrito de contato.
-- **Design Responsivo:** Layout fluido (Mobile-First) garantindo a melhor experiência de leitura e navegação em qualquer dispositivo.
-- **Performance:** Código limpo e sem dependências de frameworks pesados, garantindo carregamento ultrarrápido.
+Página desenvolvida em **HTML5, CSS3 e JavaScript puro**, hospedada no **GitHub Pages** com domínio próprio (`CNAME`), focada em:
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5:** Estrutura semântica, acessibilidade e otimização avançada para motores de busca.
-- **CSS3:** Estilização visual, layout responsivo (adaptável para celulares) e variáveis de design baseadas na identidade visual da profissional.
-- **JavaScript (Vanilla):** Interatividade do site, como o menu hambúrguer para mobile, rolagem suave (smooth scroll) entre as seções e abertura de modais da biblioteca forense.
+* **Atendimento 100% online para todo o Brasil** em Consultoria Pericial Documental.
+* **Alta conversão para WhatsApp** com seletor clicável por condição/doença e formulário com envio direto formatado.
+* **SEO técnico completo** para Google e Bing (`Schema.org` `ProfessionalService` + `FAQPage`, `sitemap.xml`, `robots.txt`, `canonical`, Open Graph e Twitter Cards).
+* **Integração com tráfego pago e métricas:** Google Analytics 4 (`GA4`) com rastreamento de cliques em CTAs, condições e formulário, além de estrutura pronta para **Meta Pixel**.
+* **Identidade visual** em Roxo Nobre, Dourado e Off-White, 100% responsiva (mobile-first).
 
 ---
 
-## 📁 Estrutura do Projeto
+## Áreas de Destaque no Site
+
+* **INSS / Atestmed (Prazo de 10 dias):** Reversão de negativas documentais com Parecer Cinesiológico-Funcional baseado na CIF.
+* **Condições e Dores Crônicas:** Fibromialgia, Hérnia de Disco, LER/DORT, Artrose/Artrite, Ombro/Manguito Rotador e sequelas de cirurgias ou acidentes.
+* **Isenção PCD:** Laudo Cinesiológico-Funcional para isenção de IPI, ICMS e IPVA.
+* **Para Advogados (B2B):** Quesitos estratégicos, impugnação de laudos e pareceres de divergência.
+
+---
+
+## Estrutura de Arquivos
 
 ```text
-├── index.html       # Arquivo principal (Conteúdo, Copywriting e SEO)
-├── styles.css       # Folha de estilos (Design, Cores e Responsividade)
-├── favicon.ico      # Ícone do site para a aba do navegador
-└── imagens/         # Fotos, logotipos e mídias (.png, .jpg)
-
-## 👨‍💻 Desenvolvimento e Gestão
-Projeto desenvolvido, otimizado e mantido por **Uli81 Consultoria Digital**.
+sitefisio/
+├── CNAME                   # Configuração do domínio próprio (NÃO APAGAR)
+├── index.html              # Estrutura semântica, SEO e Schema.org
+├── styles.css              # Identidade visual responsiva (Roxo Nobre + Dourado)
+├── script.js               # Menu mobile, FAQ, seletor WhatsApp, formulário e eventos GA4/Pixel
+├── manifest.json           # Configurações PWA e ícone
+├── robots.txt              # Regras de indexação para buscadores
+├── sitemap.xml             # Mapa do site para Google Search Console e Bing Webmaster Tools
+├── logo_fisioterapia.png   # Logotipo e favicon
+├── sua_foto.jpg            # Foto principal (Hero e Open Graph)
+├── foto_sobre.jpg          # Foto da seção Sobre
+└── README.md               # Documentação do repositório
