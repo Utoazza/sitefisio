@@ -26,7 +26,7 @@
   </script>
   -->
 
-  <title>Dra. Cristiane Bohm | Fisioterapeuta Forense, Laudos INSS, PCD e Perícia Judicial</title>
+  <title>Dra. Cristiane Bohm dos Santos | Fisioterapeuta Forense, Laudos INSS, PCD e Perícia Judicial</title>
   <meta name="description" content="Fisioterapeuta Forense (CREFITO-5 83.169/F | ABRAPEFI) com mais de 20 anos de experiência. Laudos para INSS/Atestmed, PCD e Advogados em todo o Brasil.">
   <meta name="author" content="Dra. Cristiane Bohm dos Santos">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -41,7 +41,7 @@
   <meta name="ICBM" content="-27.6363, -52.2756">
 
   <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
-  <meta property="og:title" content="Dra. Cristiane Bohm | Fisioterapeuta Forense e Laudos Técnicos">
+  <meta property="og:title" content="Dra. Cristiane Bohm dos Santos | Fisioterapeuta Forense e Laudos Técnicos">
   <meta property="og:description" content="Parecer Cinesiológico-Funcional baseado na CIF para INSS (Atestmed), Isenção PCD e Assistência Técnica para Advogados. Atendimento 100% online em todo o Brasil.">
   <meta property="og:url" content="https://crisfisioforense.com.br/">
   <meta property="og:image" content="https://crisfisioforense.com.br/sua_foto.jpg">
@@ -52,7 +52,7 @@
 
   <!-- Twitter / X Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dra. Cristiane Bohm | Fisioterapeuta Forense">
+  <meta name="twitter:title" content="Dra. Cristiane Bohm dos Santos | Fisioterapeuta Forense">
   <meta name="twitter:description" content="Laudos técnicos e consultoria pericial 100% online para todo o Brasil: INSS, Atestmed, PCD, Trabalhista e Advogados.">
   <meta name="twitter:image" content="https://crisfisioforense.com.br/sua_foto.jpg">
 
@@ -62,13 +62,19 @@
   <link rel="icon" href="logo_fisioterapia.png" type="image/png">
   <link rel="apple-touch-icon" href="logo_fisioterapia.png">
 
-  <!-- Fontes e Ícones -->
+  <!-- Pré-carregamento da imagem principal (LCP) -->
+  <link rel="preload" as="image" href="sua_foto.jpg" fetchpriority="high">
+
+  <!-- Fontes e Ícones (carregamento sem bloquear renderização) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+
+  <link rel="stylesheet" href="styles.css?v=3">
 
   <!-- Dados Estruturados: Serviço Profissional + Redes Sociais (Google e Bing) -->
   <script type="application/ld+json">
@@ -231,7 +237,7 @@
 
         <div class="hero-media">
           <div class="hero-photo-card">
-            <img src="sua_foto.jpg" alt="Dra. Cristiane Bohm dos Santos - Fisioterapeuta Forense e Perita Judicial" width="520" height="520">
+            <img src="sua_foto.jpg" alt="Dra. Cristiane Bohm dos Santos - Fisioterapeuta Forense e Perita Judicial" width="440" height="440" fetchpriority="high" decoding="async">
             <div class="hero-credential-card">
               <div class="credential-icon"><i class="fa-solid fa-scale-balanced"></i></div>
               <div>
@@ -538,11 +544,11 @@
       </div>
     </section>
 
-    <!-- SOBRE A ESPECIALISTA (com a foto nova foto_sobre.jpg) -->
+    <!-- SOBRE A ESPECIALISTA -->
     <section id="sobre" class="section-padding">
       <div class="container about-grid reveal">
         <div class="about-media">
-          <img src="foto_sobre.jpeg" alt="Dra. Cristiane Bohm dos Santos em evento técnico de saúde do trabalhador" loading="lazy">
+          <img src="foto_sobre.jpeg" alt="Dra. Cristiane Bohm dos Santos em evento técnico de saúde do trabalhador" width="540" height="540" loading="lazy" decoding="async">
           <div class="experience-badge">
             <strong>+20</strong>
             <span>Anos de<br>Experiência</span>
@@ -770,7 +776,7 @@
         <a href="https://www.instagram.com/crisfisioforense" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/crisfisioforense" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.linkedin.com/in/crisfisioforenseoficial" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://wa.me/5554999188692" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/5554999188692" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no WhatsApp (54) 99918-8692"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -786,7 +792,7 @@
     <span class="whatsapp-tooltip">Falar no WhatsApp</span>
   </a>
 
-  <script src="script.js" defer></script>
+  <script src="script.js?v=3" defer></script>
 </body>
 
 </html>
